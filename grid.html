@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            width:100%;
+            display:grid;
+            row-gap: 5px;
+            column-gap: 5px;
+           grid-template-columns: 1fr 1fr 1fr 1fr;
+           grid-template-rows: 100px 100px 100px 100px;
+        }
+        .nature{
+            border-color: black;
+            border-style: solid;
+            width:100%;
+            height:100%;
+            
+        }
+       
+        .nature1{
+           
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 1;
+            grid-row-end: 2;
+        }
+        .nature2{
+            
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 1;
+            grid-row-end: 2;
+        }
+        .nature3{
+           
+            grid-column-start: 3;
+            grid-column-end: 4;
+            grid-row-start: 1;
+            grid-row-end: 3;
+        }
+        .nature4{
+           
+            grid-column-start: 4;
+            grid-column-end: 5;
+            grid-row-start: 1;
+            grid-row-end: 2;
+        }
+        .nature5{
+           
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 2;
+            grid-row-end: 3;
+        }
+        .nature6{
+          
+            grid-column-start: 4;
+            grid-column-end: 5;
+            grid-row-start: 2;
+            grid-row-end:4 ;
+        }
+        .nature7{
+           
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 3;
+            grid-row-end: 5;
+        }
+        .nature8{
+            
+            grid-column-start: 3;
+            grid-column-end: 4;
+            grid-row-start: 3;
+            grid-row-end: 4;
+        }
+        .nature9{
+            
+            grid-column-start: 3;
+            grid-column-end: 5;
+            grid-row-start: 4;
+            grid-row-end: 5;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img  src="./nature1.jpeg" class="nature nature1">
+        <img  src="./nature2.jpeg" class="nature nature2">
+        <img  src="./nature3.jpg"  class="nature nature3">
+        <img  src="./nature4.jpeg" class="nature nature4">
+        <img  src="./nature5.jpeg" class="nature nature5">
+        <img  src="./nature6.jpeg" class="nature nature6">
+        <img  src="./nature7.jpg"  class="nature nature7">
+        <img  src="./nature8.jpeg" class="nature nature8">      
+         <img src="./nature9.jpeg" class="nature nature9">
+    </div>
+</body>
+</html> 
